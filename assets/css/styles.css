@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fb; /* Light background color for the page */
+    margin: 0;
+    padding: 0;
+}
+
+h2.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50; /* Dark grey for headings */
+    margin-bottom: 2rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2980b9; /* Deep blue color for the navbar */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f39c12 !important; /* Accent color for hover effect */
+}
+
+/*icon-image*/
+.icon-image{
+    height: 40px;
+    width: 40px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* Card Styles */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.card .btn {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.card .btn:hover {
+    background-color: #3498db; /* Light blue for hover effect */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Form Styles */
+.form-label {
+    color: #2c3e50;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+.btn-primary {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #3498db;
+}
